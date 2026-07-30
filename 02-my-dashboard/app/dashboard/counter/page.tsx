@@ -2,8 +2,8 @@
 // crear componente prc
 export default function CounterPage() {
   return (
-    <div>
-      <h1>Hello Counter Page</h1>
-    </div>
+    <>
+      <h1 className="text-black">Hello Counter Page</h1>
+    </>
   );
 }
