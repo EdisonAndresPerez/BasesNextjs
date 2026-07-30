@@ -61,7 +61,7 @@ export default function NamePage() {
         </div>
       </header>
 
-      <section className="rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-paper)]">
+      <section className="rounded-2xl border border-border bg-card p-5 shadow-(--shadow-paper)">
         <input
           value={title}
           onChange={(e) => setTitle(e.target.value)}
@@ -92,9 +92,9 @@ export default function NamePage() {
         {notes.map((note) => (
           <li
             key={note.id}
-            className="group relative overflow-hidden rounded-2xl border border-border bg-card p-5 pl-7 shadow-[var(--shadow-paper)] transition hover:-translate-y-0.5"
+            className="group relative overflow-hidden rounded-2xl border border-border bg-card p-5 pl-7 shadow-(--shadow-paper) transition hover:-translate-y-0.5"
           >
-            <span className="absolute inset-y-0 left-0 w-1.5 bg-accent" />
+            <span className="absolute inset-y-0 left-0 w-1.5 bg-blue-500" />
             <div className="flex items-start justify-between gap-4">
               <div className="min-w-0">
                 <h2 className="font-serif text-lg text-card-foreground">

@@ -1,6 +1,6 @@
 
 
-export default function NamePage() {
+export default function UsersPage() {
   return (
     <div>
       <h1>Hello Users Page</h1>
