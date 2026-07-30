@@ -19,9 +19,8 @@ export const ActiveLink = ({ path, text, icon }: Props) => {
     <>
       <Link
         href={path}
-        className={`text-white hover:text-gray-300 flex items-center ${style.link}   ${
-          pathName === path ? style["active-link"] : ""
-        }`}
+        className={`text-white hover:text-gray-300 flex items-center ${style.link}   
+          ${pathName === path ? style["active-link"] : ""}`}
       >
         {icon}
         {text}

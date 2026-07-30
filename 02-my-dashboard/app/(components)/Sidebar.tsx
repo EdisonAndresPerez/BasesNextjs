@@ -11,7 +11,7 @@ const menuItems = [
     icon: <TfiAgenda size={40} />,
   },
   {
-    path: "dashboard/users",
+    path: "/dashboard/users",
     title: "mis Usuarios",
     subTitle: "puedes agregar y ver usuarios",
     icon: <LuBookUser size={40} />,
@@ -23,7 +23,7 @@ export const Sidebar = () => {
   return (
     <div
       id="menu"
-      className="bg-gray-900 min-h-screen z-10 text-slate-300 w-[350]  left-0 h-screen "
+      className="bg-gray-900 min-h-screen z-10 text-slate-300 w-[350]   "
     >
       <div id="logo" className="my-4 px-6">
         <h1 className="text-lg md:text-2xl font-bold text-white">
